@@ -1,0 +1,16 @@
+# configs
+
+dns_weight_path: '/data/cx/ysp/video-fingerprint/weights/dns_cg_student.pth'
+device: 'cuda:3'
+
+#抽帧相关参数
+start: 0.0
+end: 1000.0
+time_step: 5
+
+# 策略配置服务(redis)
+feature_service_ip: '0.0.0.0'
+feature_service_port: 5555
+
+# 超过阈值认为是相似的视频
+hit_database_ratio: 0.7
